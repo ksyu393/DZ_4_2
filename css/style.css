@@ -1,18 +1,36 @@
-.raw{
-	float: left;
-	padding: 0px;
-	margin: 0px;
-	height: 200px;
-	width: 200px;
-	
+/*.raw{
+float: left;
+padding: 0px;
+margin: 0px;
+height: 200px;
+width: 200px;
+
 }
 .container li{
-	margin: 0px;
-	padding: 0px;
-	height: 200px;
-	width: 200px;
-	list-style: none;
+margin: 0px;
+padding: 0px;
+height: 200px;
+width: 200px;
+list-style: none;
 }
 .box1{
-	background-color: #850000;
+background-color: #850000;
+}
+*/
+.wrapper{
+margin: 0 auto;
+height: 600px;
+width: 600px;
+font-size: 0;
+}
+.box{
+display: inline-block;
+height: 200px;
+width: 200px;
+}
+.box1{
+display: inline-block;
+height: 200px;
+width: 200px;
+background-color: #850000;
 }
